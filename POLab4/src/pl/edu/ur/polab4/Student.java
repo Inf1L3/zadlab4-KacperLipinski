@@ -41,6 +41,10 @@ public class Student {
         this.nazwisko = nazwisko;
     }
 
+    Student() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public String pokazeDane() {
         return "Student{" + "imie=" + imie + ", nazwisko=" + nazwisko + ", nr_indeksu=" + nr_indeksu + ", nazwa_specjalnosci=" + nazwa_specjalnosci + ", rok_studiow=" + rok_studiow + '}';
     }

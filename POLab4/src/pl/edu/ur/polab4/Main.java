@@ -5,6 +5,9 @@
  */
 package pl.edu.ur.polab4;
 
+import static java.time.Clock.system;
+import java.util.Scanner;
+
 /**
  *
  * @author student
@@ -25,6 +28,27 @@ public class Main {
         student1.rok_studiow=1000;
         System.out.println(student3.pokazeDane());
         System.out.println(student4.pokazeDane());
+    
+    Scanner scanner = new Scanner(System.in);
+    Student student = new Student();
+    
+    System.out.println("Podaj imie studenta:");
+    Student.imie.scanner.next();
+    System.out.println("Podaj naziwsko studenta:"):
+    Student.nazwisko=scanner.next();
+    System.out.println("Podaj numer indeksu:");
+    student.nr_indeksu=scanner.nextInt();
+    System.out.println("Podaj nazwe specjalnosci:");
+    Student.nazwa_specjalnosci=scanner.next();
+    System.out.println("Podaj rok studiow:");
+    student.rok_studiow=scanner.nextInt();
+    
+    
+    
     }
     
+    Scanner scanner = new Scanner(System.in);
+    Student student = new Student();
+    
+   
 }
