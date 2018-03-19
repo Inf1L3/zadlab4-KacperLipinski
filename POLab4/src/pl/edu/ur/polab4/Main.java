@@ -22,6 +22,7 @@ public class Main {
         
         System.out.println(student1.pokazeDane());
         System.out.println(student2.pokazeDane());
+        student1.rok_studiow=1000;
         System.out.println(student3.pokazeDane());
         System.out.println(student4.pokazeDane());
     }
